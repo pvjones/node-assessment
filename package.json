@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "test": "ava --verbose"
+    "test": "ava --verbose",
+    "start": "node server.js"
   },
   "devDependencies": {
     "ava": "^0.15.2",
@@ -10,5 +11,22 @@
     "supertest-as-promised": "^3.2.0"
   },
   "dependencies": {
-  }
+    "body-parser": "^1.16.0",
+    "cors": "^2.8.1",
+    "express": "^4.14.1"
+  },
+  "name": "node-assessment",
+  "description": "## Set up your node server",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pvjones/node-assessment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pvjones/node-assessment/issues"
+  },
+  "homepage": "https://github.com/pvjones/node-assessment#readme"
 }
